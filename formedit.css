@@ -1,0 +1,95 @@
+ 
+
+/* Color settings */
+
+$formColor: #fff;
+
+
+$errorMsgColor: #ff0000;
+
+/* Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+.container {
+  width: 600px;
+  margin: 25px auto;
+}
+
+form {
+  padding: 20px;
+  background: $formBg;
+  color: $formColor;
+
+ 
+  }
+  label {
+    border: 0;
+    margin-bottom: 3px;
+    display: inline;
+    width: 100%;
+      margin-right: 200px;
+
+  }
+h1{
+	background-color:#22acc3;
+}
+.form{
+	text-align: center;
+	background-color:#c5bca8;
+	height: 600px;
+
+}
+.age
+{
+	margin-left: 50px;
+}
+.error{
+	color: red;
+}
+input {
+    height: 25px;
+    line-height: 25px;
+   
+    padding: 0 6px;
+
+  }
+  button {
+    background-color: blue !important;
+    color: white !important;
+    margin-left: 2px;
+  }
+  table{
+        width: 100%;
+        margin: 20px 0;
+        border-collapse: collapse;
+    }
+    .table-responsive{
+        overflow: auto;
+        background-color: red;
+    }
+    table, th, td{
+        border: 1px solid black;
+    }
+    table th, table td{
+        padding: 5px;
+        text-align: left;
+    }
+    tr:nth-child(even){
+        background: lavenderblush;
+    }
+    .w-200{
+        width: 200px;
+    }
+ .btnupdate{
+  background-color: blue;
+  color: white;
+ }
